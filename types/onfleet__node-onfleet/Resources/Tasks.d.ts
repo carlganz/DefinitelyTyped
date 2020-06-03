@@ -26,6 +26,7 @@ declare namespace Task {
       events: any[];
       actions: any[];
       time: number | null;
+      success: boolean | null;
       firstLocation: any[];
       lastLocation: any[];
       unavailableAttachments: any[];
